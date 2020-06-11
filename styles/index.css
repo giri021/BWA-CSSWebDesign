@@ -1,0 +1,72 @@
+/*install fonts */
+@font-face {
+    font-family: AbrilFat;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+
+body{
+    margin: 0;
+}
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background:  lightcyan;
+    height: 120px;;
+}
+.header .logo {
+    float: left;
+}
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+
+}
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: AbrilFat;
+    display: block;
+
+}
+
+.header .navigation li  a {
+    color: #123412;
+    text-decoration: none;
+}
+
+.header .navigation li  a:hover {
+    color: #24c64f;
+    text-shadow: aquamarine;
+    text-decoration: underline;
+}
+
+.judulh2 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+.judulh3 {
+    font-family: 'Abril Fatface';
+}
+
+/*.header .navigation li  a:visited {
+    color: #0d0e0f;
+    text-shadow: #24c64f;
+    text-decoration: underline;
+}*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: lightcyan;
+    color: black;
+    text-align: center;
+  }
+
